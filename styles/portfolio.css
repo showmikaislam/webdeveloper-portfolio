@@ -1,6 +1,9 @@
 /* nav related styles */
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
   
 }
 
@@ -22,6 +25,7 @@ font-weight: 800;
  
 nav> ul{
     display: flex;
+    align-items: center;
 }
 nav li {
     list-style: none;
@@ -39,4 +43,14 @@ nav a {
     color: var(--White-Color, #FFF);
     font-size: 20px;
     font-weight: 700;
+    padding: 15px 35px;
+   
+ }
+ .header{
+    background-color: #fff8f3;
+ }
+  
+ .banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
  }
